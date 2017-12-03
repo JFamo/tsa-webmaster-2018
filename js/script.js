@@ -1,19 +1,19 @@
 $("#myCarousel").on('slid.bs.carousel', function(evt) {
 	switch($(this).find('.active').index()){
 		case 0:
-			transitionWord("Education");
+			transitionWord("Education", "pages/courses.html");
 		break;
 		case 1:
-			transitionWord("Family");
+			transitionWord("Family", "pages/chapter.html");
 		break;
 		case 2:
-			transitionWord("Charity");
+			transitionWord("Charity", "pages/fundraising.html");
 		break;
 		case 3:
-			transitionWord("Fun");
+			transitionWord("Fun", "pages/activities.html");
 		break;
 		case 4:
-			transitionWord("Excellence");
+			transitionWord("Excellence", "pages/awards.html");
 		break;
 	}
   console.debug("slide transition started")
@@ -26,9 +26,10 @@ $("#myCarousel").on('slide.bs.carousel', function(evt) {
 	word.style.opacity = "0";
 });
 
-function transitionWord(newText){
+function transitionWord(newText, newLink){
 	var word = document.getElementById("titleTextLink");
 	word.innerHTML = newText;
+	word.href = newLink;
 	word.style.opacity = "1";
 }
 
