@@ -21,9 +21,18 @@
 	font-family: 'Ubuntu';
 	font-size:36px;
 	font-weight: 500px;
-	padding-left:10px;
+	padding-left:1%;
 	padding-top:10px;
 	padding-bottom:10px;
+}
+
+.titleTextType3{
+	font-family: 'Ubuntu';
+	font-size:30px;
+	font-weight: 500px;
+	padding-left:5%;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 
 .headerTextType1{
@@ -40,6 +49,14 @@
 	color:black;
 }
 
+.bodyTextType2{
+	font-family: 'Oxygen';
+	font-size:14px;
+	font-weight: 400px;
+	color:black;
+	padding-left: 1%;
+}
+
 #titleTextStagger1{
 	color: #5b0707;
 }
@@ -49,11 +66,11 @@
 }
 
 #titleTextStagger3{
-	color: black;
+	color: #5b0707;
 }
 
 #titleTextLink{
-	color: #5b0707;
+	color: black;
 	font-family: 'Ubuntu';
 	font-size:50px;
 	font-weight: 500px;
@@ -64,5 +81,41 @@
 }
 
 .chapterPic{
+	width:100%;
+}
+
+.officerPic{
+	width:60%;
+	padding-top:5%;
+	padding-bottom:5%;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.officerPic:hover{
+	width:70%;
+	padding-top:0%;
+	padding-bottom:0%;
+}
+
+.popover{
+    max-width: 25%; /* Max Width of the popover (depending on the container!) */
+}
+
+.activityImage{
+	width:80%;
+}
+
+.awardPic{
+	width:90%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-right:5%;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.awardPic:hover{
 	width:100%;
 }

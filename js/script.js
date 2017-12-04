@@ -33,3 +33,6 @@ function transitionWord(newText, newLink){
 	word.style.opacity = "1";
 }
 
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({container: 'body'});   
+});
