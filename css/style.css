@@ -11,6 +11,14 @@
 	text-align: center;
 }
 
+.detailsDiv{
+	padding-left:20%;
+	padding-right:20%;
+	padding-top:10%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
 .titleTextType1{
 	font-family: 'Ubuntu';
 	font-size:50px;
@@ -58,16 +66,20 @@
 	padding-right:15%;
 }
 
+.bottomPadding{
+	padding-bottom:5%;
+}
+
 #titleTextStagger1{
-	color: #5b0707;
+	color: black;
 }
 
 #titleTextStagger2{
-	color: #5b0707;
+	color: black;
 }
 
 #titleTextStagger3{
-	color: #5b0707;
+	color: black;
 }
 
 #titleTextLink{
@@ -77,6 +89,15 @@
 	font-weight: 500px;
 	text-decoration: underline;
 	cursor:pointer;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.detailsText{
+	color: black;
+	font-family: 'Abel';
+	font-size:20px;
+	font-weight: 400px;
 	transition-property: all;
 	transition-duration: 1s;
 }
