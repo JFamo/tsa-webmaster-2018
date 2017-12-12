@@ -3,6 +3,15 @@
 	margin:0px;
 }
 
+.contentBox{
+	width:80%;
+	padding:2% 5% 2% 5%;
+	background-color: #ebebeb;
+	border-radius: 10px;
+	box-shadow: 2px 2px grey;
+	margin-top:5%;
+}
+
 .titleDiv{
 	padding-left:10%;
 	padding-right:10%;
@@ -29,7 +38,6 @@
 	font-family: 'Ubuntu';
 	font-size:36px;
 	font-weight: 500px;
-	padding-left:1%;
 	padding-top:10px;
 	padding-bottom:10px;
 }
@@ -62,8 +70,6 @@
 	font-size:14px;
 	font-weight: 400px;
 	color:black;
-	padding-left: 1%;
-	padding-right:15%;
 }
 
 .bottomPadding{
@@ -140,4 +146,14 @@
 
 .awardPic:hover{
 	width:100%;
+}
+
+.contentPic{
+	width:80%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-right:5%;
+	transition-property: all;
+	transition-duration: 1s;
 }
