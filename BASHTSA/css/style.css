@@ -3,6 +3,10 @@
 	margin:0px;
 }
 
+body{
+	background-color: #1A535C;
+}
+
 .contentBox{
 	width:80%;
 	padding:2% 5% 2% 5%;
@@ -32,6 +36,7 @@
 	font-family: 'PT Sans';
 	font-size:50px;
 	font-weight: 400px;
+	color:#F7FFF7;
 }
 
 .titleTextType2{
@@ -76,20 +81,8 @@
 	padding-bottom:5%;
 }
 
-#titleTextStagger1{
-	color: black;
-}
-
-#titleTextStagger2{
-	color: black;
-}
-
-#titleTextStagger3{
-	color: black;
-}
-
 #titleTextLink{
-	color: black;
+	color: #F7FFF7;
 	font-family: 'PT Sans';
 	font-size:50px;
 	font-weight: 400px;
@@ -100,12 +93,12 @@
 }
 
 .detailsText{
-	color: black;
 	font-family: 'Abel';
 	font-size:20px;
 	font-weight: 400px;
 	transition-property: all;
 	transition-duration: 1s;
+	color:#F7FFF7;
 }
 
 .chapterPic{
