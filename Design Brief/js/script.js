@@ -1,7 +1,7 @@
 $("#myCarousel").on('slid.bs.carousel', function(evt) {
 	switch($(this).find('.active').index()){
 		case 0:
-			transitionWord("Education", "pages/courses.html", "Boyertown Senior High School offers a wide variety of courses in the STEM subject areas, preparing students to live and lead in a technical world.");
+			transitionWord("Education", "pages/science.html", "Boyertown Senior High School offers a wide variety of courses in the STEM subject areas, preparing students to live and lead in a technical world.");
 		break;
 		case 1:
 			transitionWord("Family", "pages/chapter.html", "Boyertown Senior High School's TSA chapter is a group of hard-working, involved individuals who participate in the community, perform in competition, and fundraise for other organizations like the American Cancer Society.");
