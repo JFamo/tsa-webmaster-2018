@@ -16,9 +16,6 @@ $("#myCarousel").on('slid.bs.carousel', function(evt) {
 			transitionWord("Excellence", "pages/awards.html", "Boyertown Senior High School TSA has achieved at the Regional, State, and National level over the past few years, securing countless awards for fundraising, community involvement, and competitive event success.");
 		break;
 	}
-  console.debug("slide transition started")
-  console.debug('current slide = ', $(this).find('.active').index())
-  console.debug('next slide = ', $(evt.relatedTarget).index())
 });
 
 $("#myCarousel").on('slide.bs.carousel', function(evt) {
@@ -41,3 +38,8 @@ function transitionWord(newText, newLink, newDesc){
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({container: 'body'});   
 });
+
+$(function(){
+            // Activate Carousel
+            $("#myCarousel").carousel();
+        });

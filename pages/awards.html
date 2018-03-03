@@ -6,7 +6,7 @@
 	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap, cause it dabs -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Grab my css and js -->
@@ -15,32 +15,20 @@
   <body>
 
   	<!-- so peeps dont get lost -->
-  	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="../index.html">BASHTSA</a>
+  	<nav class="navbar navbar-dark bg-danger navbar-expand-sm">
+  	<div class="container-fluid">
+	    <a class="navbar-brand" href="../index.html">BASHTSA</a>
+	    <div class="ml-auto navbar-nav">
+	    	<a class="nav-item nav-link" href="../index.html">Home</a>
+	      	<a class="nav-item nav-link" href="courses.html">Education</a>
+	      	<a class="nav-item nav-link" href="chapter.html">Chapter</a>
+	      	<a class="nav-item nav-link" href="fundraising.html">Fundraising</a>
+	      	<a class="nav-item nav-link" href="activities.html">Activities</a>
+	      	<a class="nav-item nav-link active" href="awards.html">Awards</a>
+	      	<a class="nav-item nav-link" href="about.html">About</a>
+	      	<a class="nav-item nav-link" href="http://manticorerobotics.bashtsa.x10host.com/index.html">Design Brief</a>
 	    </div>
-	    <ul class="nav navbar-nav navbar-right">
-	      <li><a href="../index.html">Home</a></li>
-	      <li class="dropdown">
-	        <a class="dropdown-toggle" data-toggle="dropdown" href="../pages/science.html">Courses
-	        <span class="caret"></span></a>
-	        <ul class="dropdown-menu">
-	          <li><a href="../pages/science.html">Science</a></li>
-	          <li><a href="../pages/tech.html">Technology & Engineering</a></li>
-	          <li><a href="../pages/math.html">Mathematics</a></li>
-	          <li><a href="../pages/business.html">Business</a></li>
-	          <li><a href="../pages/teachers.html">Teachers & Clubs</a></li>
-	        </ul>
-	      </li>
-	      <li><a href="chapter.html">Chapter</a></li>
-	      <li><a href="fundraising.html">Fundraising</a></li>
-	      <li><a href="activities.html">Activities</a></li>
-	      <li class="active"><a>Awards</a></li>
-              <li><a href="about.html">About</a></li>
-	      <li><a href="http://manticorerobotics.bashtsa.x10host.com/index.html">Design Brief</a></li>
-	    </ul>
-	  </div>
+	</div>
 	</nav>
 
   	<!-- the actual things -->
@@ -72,10 +60,12 @@
 		  	</div>
 		</div>
 	
-	<ul class="pager">
-		<li><a href="activities.html" class="navbut">Activities</a></li>
-	  	<li><a href="about.html" class="navbut">About</a></li>
-	</ul>
+	<nav>
+	  <ul class="pagination justify-content-center">
+	    <li class="page-item"><a class="text-danger page-link" href="activities.html" >Activities</a></li>
+	    <li class="page-item"><a class="text-danger page-link" href="about.html">About</a></li>
+	  </ul>
+	</nav>
   
   <footer>
   	<!-- get js late -->

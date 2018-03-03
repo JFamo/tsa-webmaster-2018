@@ -3,8 +3,32 @@
 	margin:0px;
 }
 
+.card{
+	margin-bottom:10px;
+}
+
+.card-block{
+	padding-top:2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.coursebody{
+	padding-top:2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
 .navbut{
 	color:black;
+}
+
+.progress-bar{
+	height:2px;
+}
+
+.progress{
+	padding-bottom:5px;
 }
 
 .pointer{
@@ -17,22 +41,22 @@
 	background-color: #ebebeb;
 	border-radius: 10px;
 	box-shadow: 2px 2px grey;
-	margin-top:5%;
+	margin-top:2%;
 }
 
 .titleDiv{
 	padding-left:10%;
 	padding-right:10%;
 	padding-top:5%;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 	text-align: center;
 }
 
 .detailsDiv{
 	padding-left:20%;
 	padding-right:20%;
-	padding-top:10%;
-	padding-bottom: 10%;
+	padding-top:5%;
+	padding-bottom: 1%;
 	text-align: center;
 }
 
@@ -46,8 +70,7 @@
 	font-family: 'Ubuntu';
 	font-size:36px;
 	font-weight: 500px;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:20px;
 }
 
 .titleTextType3{
@@ -83,20 +106,7 @@
 	padding-bottom:5%;
 }
 
-#titleTextStagger1{
-	color: black;
-}
-
-#titleTextStagger2{
-	color: black;
-}
-
-#titleTextStagger3{
-	color: black;
-}
-
 #titleTextLink{
-	color: black;
 	font-family: 'PT Sans';
 	font-size:50px;
 	font-weight: 400px;
@@ -113,6 +123,14 @@
 	font-weight: 400px;
 	transition-property: all;
 	transition-duration: 1s;
+}
+
+.italicText{
+	color: black;
+	font-family: 'Abel';
+	font-size:18px;
+	font-weight: 200px;
+	font-style: italic;
 }
 
 .chapterPic{

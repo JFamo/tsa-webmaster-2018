@@ -6,7 +6,7 @@
 	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap, cause it dabs -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Grab my css and js -->
@@ -15,32 +15,20 @@
   <body>
 
   	<!-- so peeps dont get lost -->
-  	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="../index.html">BASHTSA</a>
+  	<nav class="navbar navbar-dark bg-danger navbar-expand-sm">
+  	<div class="container-fluid">
+	    <a class="navbar-brand" href="../index.html">BASHTSA</a>
+	    <div class="ml-auto navbar-nav">
+	    	<a class="nav-item nav-link" href="../index.html">Home</a>
+	      	<a class="nav-item nav-link" href="courses.html">Education</a>
+	      	<a class="nav-item nav-link" href="chapter.html">Chapter</a>
+	      	<a class="nav-item nav-link" href="fundraising.html">Fundraising</a>
+	      	<a class="nav-item nav-link" href="activities.html">Activities</a>
+	      	<a class="nav-item nav-link" href="awards.html">Awards</a>
+	      	<a class="nav-item nav-link" href="about.html">About</a>
+	      	<a class="nav-item nav-link" href="http://manticorerobotics.bashtsa.x10host.com/index.html">Design Brief</a>
 	    </div>
-	    <ul class="nav navbar-nav navbar-right">
-	      <li><a href="../index.html">Home</a></li>
-	      <li class="dropdown">
-	        <a class="dropdown-toggle" data-toggle="dropdown" href="../pages/science.html">Courses
-	        <span class="caret"></span></a>
-	        <ul class="dropdown-menu">
-	          <li><a href="../pages/science.html">Science</a></li>
-	          <li><a href="../pages/tech.html">Technology & Engineering</a></li>
-	          <li><a href="../pages/math.html">Mathematics</a></li>
-	          <li class="active"><a href="../pages/business.html">Business</a></li>
-	          <li><a href="../pages/teachers.html">Teachers & Clubs</a></li>
-	        </ul>
-	      </li>
-	      <li><a href="chapter.html">Chapter</a></li>
-	      <li><a href="fundraising.html">Fundraising</a></li>
-	      <li><a href="activities.html">Activities</a></li>
-	      <li><a href="awards.html">Awards</a></li>
-              <li><a href="about.html">About</a></li>
-	      <li><a href="http://manticorerobotics.bashtsa.x10host.com/index.html">Design Brief</a></li>
-	    </ul>
-	  </div>
+	</div>
 	</nav>
 
   	<!-- the actual things -->
@@ -53,9 +41,9 @@
 	  	
 			  	<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Criminal / Civil Law</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">If you are interested in pursuing a career in law enforcement or learning your rights as a citizen,
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Criminal / Civil Law</p></div>
+					  <div class="card-block"><p class="bodyTextType1">If you are interested in pursuing a career in law enforcement or learning your rights as a citizen,
 						this course is for you! Students will study and investigate both civil and criminal law, the court
 						system and making contracts, and apply that knowledge to everyday life. Professionals in law
 						enforcement will provide information on how procedures are performed and the current law.
@@ -64,9 +52,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Entrepreneurship</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">In this introductory business course, students learn the basics of planning and launching their own
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Entrepreneurship</p></div>
+					  <div class="card-block"><p class="bodyTextType1">In this introductory business course, students learn the basics of planning and launching their own
 						successful business. Whether they want to start their own money-making business or create a non-profit
 						to help others, this course helps students develop the core skills they need to be successful. They learn
 						how to come up with new business ideas, attract investors, market their business, and manage expenses.</p></div>
@@ -76,9 +64,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Retail Management</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">Retail business vary in size from a small one-man operation to large international organizations.
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Retail Management</p></div>
+					  <div class="card-block"><p class="bodyTextType1">Retail business vary in size from a small one-man operation to large international organizations.
 						The needs of the consumer has produced an amazing variety of retail stores, which need to be
 						organized by managers. This course includes the topics of store location, layout, design,
 						management, retail buying, and customer service. Students will receive practice in a realistic
@@ -89,9 +77,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Honors Accounting</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course is designed for students who plan to pursue a degree in accounting and/or be
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Honors Accounting</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course is designed for students who plan to pursue a degree in accounting and/or be
 						challenged in an advanced level course. This course covers the accounting cycle from a sole
 						proprietorship to a corporation. Students will be required to complete a realistic accounting
 						simulation as part of the course. This course covers chapters 1-24. Students will also be exposed
@@ -102,9 +90,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Academic Accounting</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course is recommended for students planning to get a business degree. Students will
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Academic Accounting</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course is recommended for students planning to get a business degree. Students will
 						complete the accounting cycle from preparing journal entries to doing financial statements.
 						Students will be exposed to working with sole proprietorships, merchandising business, and
 						corporations. Students will be required to complete a realistic accounting simulation as part of
@@ -113,9 +101,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Quickbooks Certification</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course is designed for students that would like the skills to use QuickBooks, the #1 bestselling
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Quickbooks Certification</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course is designed for students that would like the skills to use QuickBooks, the #1 bestselling
 						small-business accounting software. Students will use their knowledge from their
 						accounting course and apply it to an automated accounting environment. Topics covered include
 						the sales process, managing expenses, reports and graphs, customizing the software, inventory,
@@ -127,9 +115,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Sports and Entertainment Marketing</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course is recommended for students pursuing a future in sports and/or the business world.
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Sports and Entertainment Marketing</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course is recommended for students pursuing a future in sports and/or the business world.
 						This highly interactive course will enable students to engage their creative side while learning
 						how to market a team, a sports figure, a product/service and most importantly, how to market
 						themselves. New trends in Marketing will be explored. Emphasis will be placed on all aspects
@@ -140,9 +128,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Global Business</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course provides an overview of the importance of international business and trade in the
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Global Business</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course provides an overview of the importance of international business and trade in the
 						global economy and explores the factors that influence success in international markets. Cultural
 						customs and traditions, trade, currency, business travel, geography, current events, international
 						marketing, global issues and career opportunities will be the major topics covered.</p></div>
@@ -152,9 +140,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Honors Java Programming</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This full-year offering is designed for the academic student who has a desire to take a first course
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Honors Java Programming</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This full-year offering is designed for the academic student who has a desire to take a first course
 						in computer science. Students will learn fundamentals of computer science, structured programs,
 						and develop their programming skills. Java is the language taught in introductory programming
 						courses at many colleges and universities and is used to develop commercial microcomputer
@@ -163,9 +151,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">CE Web Design</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">Using popular point and click software, such as Dreamweaver, this course will have you
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">CE Web Design</p></div>
+					  <div class="card-block"><p class="bodyTextType1">Using popular point and click software, such as Dreamweaver, this course will have you
 						developing a web design involving careful planning, organization and creativity. The technical
 						skills involving a design include linking, multi-media elements, color, graphics, tables, shared
 						borders, frames and much more. Basic HTML code, Java applets, Java scripts, macromedia
@@ -177,9 +165,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Video Game Design</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">Students will learn to use Unity3D, one of the most widely-used packages for game
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Video Game Design</p></div>
+					  <div class="card-block"><p class="bodyTextType1">Students will learn to use Unity3D, one of the most widely-used packages for game
 						development. Students will understand key concepts in game design including scripting, physics,
 						instantiation, particle effects; test and optimize games. Students will build a variety of games
 						(2D and 3D), and then develop their own. The software has the ability to deploy the games to the
@@ -187,9 +175,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">App Development</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">Students will build on their knowledge from the video design course. Students will learn how to
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">App Development</p></div>
+					  <div class="card-block"><p class="bodyTextType1">Students will build on their knowledge from the video design course. Students will learn how to
 						build, debug and test a Unity iOS game, screens and icons, and how to include iAds. Students
 						will build sample iOS games to help develop their own APP to deploy.
 						</p></div>
@@ -199,9 +187,9 @@
 
 				<div class="row">
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">Computer Applications</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This course introduces non-computer science majors to the fundamentals of computer hardware
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">Computer Applications</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This course introduces non-computer science majors to the fundamentals of computer hardware
 						and software and their integration into management information systems. Specific software
 						topics will include word processing, spreadsheet, presentation, database management and
 						operating systems. Using these skills, students will solve problems that they will most likely
@@ -213,9 +201,9 @@
 					</div>
 				  </div>
 				  <div class="col-sm-6">
-				  	<div class="panel panel-default">
-					  <div class="panel-heading"><p class="headerTextType1">AP Computer Science</p></div>
-					  <div class="panel-body"><p class="bodyTextType1">This second-year computer science course emphasizes programming methodology and
+				  	<div class="card">
+					  <div class="card-header"><p class="headerTextType1">AP Computer Science</p></div>
+					  <div class="card-block"><p class="bodyTextType1">This second-year computer science course emphasizes programming methodology and
 						procedural abstraction through the study of algorithms, data structures, and data abstraction. The
 						curriculum will prepare students to take the AP Computer Science Test. 
 						</p></div>
@@ -225,10 +213,12 @@
 			</div>
 	</div>
 	
-	<ul class="pager">
-		<li><a href="math.html" class="navbut">Math Courses</a></li>
-	  	<li><a href="teachers.html" class="navbut">Teachers & Clubs</a></li>
-	</ul>
+	<nav>
+	  <ul class="pagination justify-content-center">
+	    <li class="page-item"><a class="text-danger page-link" href="math.html" >Math Courses</a></li>
+	    <li class="page-item"><a class="text-danger page-link" href="tech.html">Technology Courses</a></li>
+	  </ul>
+	</nav>
   
   <footer>
   	<!-- get js late -->
