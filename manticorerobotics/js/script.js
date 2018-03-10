@@ -35,9 +35,9 @@ function transitionWord(newText, newLink, newDesc){
 	word.style.opacity = "1";
 }
 
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover({container: 'body'});   
-});
+$(function () {
+  $('[data-toggle="popover"]').popover();
+})
 
 $(function(){
             // Activate Carousel

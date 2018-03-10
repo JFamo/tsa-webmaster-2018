@@ -4,13 +4,14 @@
     <!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oxygen|Ubuntu:500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap, cause it dabs -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<!-- Grab my css and js -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -38,19 +39,36 @@
   	<div class="container-fluid">
 	  	<div class="row">
 	  		<div class="col-sm-5 bottomPadding">
-		  		<img class="robotPic img-rounded " src="img/robot.png" alt="Jon">
+	  			<center>
+	  			<div style="background: url('img/robot.png'); position: relative; width:400px; height:440px; margin-top:10%;" />
+				    <img data-toggle="tooltip" title="Advanced Facial Recognition" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:-10px; left:75px; width:30px; height:30px;">
+				    <img data-toggle="tooltip" title="Fluid Speech Interpretation" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:100px; left:-20px; width:30px; height:30px;">
+				    <img data-toggle="tooltip" title="A Vast Array of Tools" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:200px; left:60px; width:30px; height:30px;">
+				    <img data-toggle="tooltip" title="Smooth Mobility and Intelligent Pathing" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:350px; left:-30px; width:30px; height:30px;">
+				</div>
+				<p class="italicText">Hover over a blue dot to view aspects of Plexor</p>
+				</center>
 		  	</div>
 		  	<div class="col-sm-7">
 			  	<div class="titleDiv">
 			  		<p class="titleTextType1 text-primary" id="titleTextStagger1">Plexor the Home Assistant</p>
+			  		<p class="titleTextType1 text-primary" id="titleTextStagger1" style="font-size:24px;">from Manticore Robotics</p>
 			  	</div>
 			  	<div class="detailsDiv">
 			  		<p class="detailsText" id="titleDetailsText">For years, Manticore Technology Solutions has been revolutionizing the world of robotics. In 2020 - we are taking a step further. We present to you Plexor the Home Assistant, the most revolutionary device to reach the world in the 21st century. Boasting a plethora of capabilities and potential, Plexor uses sophisticated Artificial Intelligence and general-purpose functionality to usher in the future of human civilization.</p>
-			  	</div>
+			  	</div><center>
+			  	<form action="pages/existing.html">
+			  		<input type="submit" class="btn btn-primary btn-lg" value="Explore Existing Technologies">
+			  	</form></center>
 		  	</div>
 		</div>
 	</div>
 
+ <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
   
   <footer>
   	<!-- get js late -->
