@@ -151,6 +151,22 @@
 	padding-bottom:0%;
 }
 
+.desktopOnly{
+	display:block;
+}
+.mobileOnly{
+	display:none;
+}
+
+@media (max-aspect-ratio: 3/5) {
+	.desktopOnly{
+		display:none;
+	}
+	.mobileOnly{
+		display:block;
+	}
+}
+
 .popover{
     max-width: 25%; /* Max Width of the popover (depending on the container!) */
 }

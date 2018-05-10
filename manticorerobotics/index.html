@@ -40,13 +40,67 @@
 	  	<div class="row">
 	  		<div class="col-sm-5 bottomPadding">
 	  			<center>
-	  			<div style="background: url('img/robot.png'); position: relative; width:400px; height:440px; margin-top:10%;" />
-				    <img data-toggle="tooltip" title="Advanced Facial Recognition" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:-10px; left:75px; width:30px; height:30px;">
-				    <img data-toggle="tooltip" title="Fluid Speech Interpretation" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:100px; left:-20px; width:30px; height:30px;">
-				    <img data-toggle="tooltip" title="A Vast Array of Tools" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:200px; left:60px; width:30px; height:30px;">
-				    <img data-toggle="tooltip" title="Smooth Mobility and Intelligent Pathing" src="img/dot.png" style="opacity:0.6; cursor:pointer; position: relative; top:350px; left:-30px; width:30px; height:30px;">
-				</div>
-				<p class="italicText">Hover over a blue dot to view aspects of Plexor</p>
+	  			<script>
+					function mouseMove(obj){
+						document.getElementById('plexor').setAttribute('src','img/robot.png');
+						clickX = window.event.x-obj.offsetLeft;
+						clickY = window.event.y-obj.offsetTop;
+					    	if((clickX>=150&&clickX<=250)&&(clickY>=50&&clickY<=130))
+					   	 {
+					   	 	$('#tooltip1').tooltip('enable');
+					   	 	$('#tooltip1').tooltip('show');
+					   	 	document.getElementById('plexor').setAttribute('src','img/plexor1.png');
+					   	 }
+					   	 else{
+					   	 	$('#tooltip1').tooltip('hide');
+					   	 	$('#tooltip1').tooltip('disable');
+					   	 }
+					   	 if((clickX>=150&&clickX<=250)&&(clickY>130&&clickY<=200))
+						   	 {
+						   	 	$('#tooltip2').tooltip('enable');
+						   	 	$('#tooltip2').tooltip('show');
+						   	 	document.getElementById('plexor').setAttribute('src','img/plexor2.png');
+						   	 }
+						   	 else{
+						   	 	$('#tooltip2').tooltip('hide');
+						   	 	$('#tooltip2').tooltip('disable');
+						   	 	
+						   	 }
+					   	 if((clickX>=120&&clickX<=280)&&(clickY>200&&clickY<=350))
+							   	 {
+							   	 	$('#tooltip3').tooltip('enable');
+							   	 	$('#tooltip3').tooltip('show');
+							   	 	document.getElementById('plexor').setAttribute('src','img/plexor3.png');
+							   	 }
+							   	 else{
+							   	 	$('#tooltip3').tooltip('hide');
+							   	 	$('#tooltip3').tooltip('disable');
+							   	 	
+							   	 }
+					   	 if((clickX>=130&&clickX<=270)&&(clickY>350&&clickY<=440))
+								   	 {
+								   	 	$('#tooltip4').tooltip('enable');
+								   	 	$('#tooltip4').tooltip('show');
+								   	 	document.getElementById('plexor').setAttribute('src','img/plexor4.png');
+								   	 }
+								   	 else{
+								   	 	$('#tooltip4').tooltip('hide');
+								   	 	$('#tooltip4').tooltip('disable');
+								   	 }
+					}
+				</script>
+				<div id="tooltip1" data-offset=-180,-200 data-placement="right" data-toggle="tooltip" title="Advanced Facial Recognition" />
+				<div id="tooltip2" data-offset=-100,-200 data-placement="right" data-toggle="tooltip" title="Fluid Speech Interpretation" />
+				<div id="tooltip3" data-offset=0,-200 data-placement="right" data-toggle="tooltip" title="A Vast Array of Tools" />
+				<div id="tooltip4" data-offset=140,-200 data-placement="right" data-toggle="tooltip" title="Smooth Mobility and Intelligent Pathing" />
+	  			<img id="plexor" style="margin-top:10; position:relative;" width="400" height="440" src="img/robot.png" onclick="mouseMove(this)" onMouseMove="mouseMove(this)" />
+	  			<script>
+	  				$('#tooltip1').tooltip('disable');
+	  				$('#tooltip2').tooltip('disable');
+	  				$('#tooltip3').tooltip('disable');
+	  				$('#tooltip4').tooltip('disable');
+	  			</script>
+				<p class="italicText">Hover over Plexor to view its aspects and features</p>
 				</center>
 		  	</div>
 		  	<div class="col-sm-7">
